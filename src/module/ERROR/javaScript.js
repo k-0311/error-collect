@@ -1,4 +1,4 @@
-import { DETECTOR_OS, COMMONE_PROTOTYPE } from '../common/portotype'
+import { COMMONE_PROTOTYPE, DETECTOR_OS } from '@/common/portotype'
 
 class JavaScriptError {
   install (app) {

@@ -1,0 +1,34 @@
+{
+  "name": "error-collect",
+  "version": "1.0.0",
+  "description": "一个收集JavaScript错误和资源加载错误的小工具",
+  "main": "dist/error-collect.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --color",
+    "watch": "npm run build -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k-0311/error-collect.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/k-0311/error-collect/issues"
+  },
+  "homepage": "https://github.com/k-0311/error-collect#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.9.0",
+    "babel-loader": "^8.0.0-beta.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "detector": "^2.5.0"
+  }
+}

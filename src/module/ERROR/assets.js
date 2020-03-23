@@ -1,4 +1,4 @@
-import { COMMONE_PROTOTYPE } from '../common/portotype'
+import { COMMONE_PROTOTYPE } from '@/common/portotype'
 
 class AssetsError {
   install (app) {
