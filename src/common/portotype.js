@@ -9,8 +9,8 @@ const DETECTOR_OS = {
 }
 
 const COMMONE_PROTOTYPE = {
-  WebId: 'CDPF-UBI-SCVR',
-  userIp: '192.168.1.120',
+  // WebId: 'CDPF-UBI-SCVR',
+  // userIp: '192.168.1.120',
   time: new Date().getTime(),
   errorUrl: location.href,
 }

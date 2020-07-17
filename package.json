@@ -1,12 +1,10 @@
 {
-  "name": "error-collect",
+  "name": "rs-ec",
   "version": "1.0.0",
   "description": "一个收集JavaScript错误和资源加载错误的小工具",
-  "main": "dist/error-collect.js",
+  "main": "dist/ec.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --color",
-    "watch": "npm run build -- --watch"
+    "build": "cross-env NODE_ENV=UBISOFT  webpack --mode production --config build/base.js"
   },
   "repository": {
     "type": "git",
@@ -14,7 +12,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/k-0311/error-collect/issues"
   },
@@ -25,8 +23,12 @@
     "@babel/preset-env": "^7.9.0",
     "babel-loader": "^8.0.0-beta.0",
     "clean-webpack-plugin": "^3.0.0",
+    "cross-env": "^7.0.2",
+    "uglifyjs-webpack-plugin": "^2.2.0",
     "webpack": "^4.42.0",
-    "webpack-cli": "^3.3.11"
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^4.2.2"
   },
   "dependencies": {
     "detector": "^2.5.0"
